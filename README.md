@@ -1,3 +1,6 @@
+
+[TOC]
+
 # 修改说明  
 - 项目中使用boost::asio替代了原来的asio库，所以需要自己下载和编译boost库。  
 - 在原始http/asio/Transport.cpp中，当服务器使用Transfer-Encoding: chunked 方式时，没有问题，但是在Go服务器中，没有使用这种方式，导致137行的readsome阻塞，程序无反应，修改方式如下：
@@ -29,7 +32,9 @@ for (size_t i = 0; i < n; ++i, --len) {
 # 3 run
 放心大胆地编译吧！  
 
-===========
+===========   
+官方没有合并前，后续更新地址  https://github.com/BBDXF/hprosec1x-vs.git  
+
 By xin.zhang  
 `2017年8月4日 10:46:02`  
 
