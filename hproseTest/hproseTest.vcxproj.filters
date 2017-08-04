@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hprose">
+      <UniqueIdentifier>{38635d85-2e28-4ee7-a127-71af5e19fc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\http">
+      <UniqueIdentifier>{d4ae85c4-bda8-4922-8364-c100a52b8cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\http\asio">
+      <UniqueIdentifier>{ee1deb9d-eb60-4efe-bf03-d9d43ba6d39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\io">
+      <UniqueIdentifier>{4dac9d3d-4c3f-464e-aede-e761d5188b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\io\decoders">
+      <UniqueIdentifier>{a4700479-5389-400a-ad0c-d867bf98dbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\util">
+      <UniqueIdentifier>{e42e14c3-67e1-4e62-9a17-70054e50c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\rpc">
+      <UniqueIdentifier>{953a1ef6-5525-4f9a-822e-1424afa26b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hprose\rpc\asio">
+      <UniqueIdentifier>{6a812bca-1d92-46b3-a524-5119ecfa39c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hprose\http\asio\Transport.cpp">
+      <Filter>hprose\http\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\decoders\BoolDecoder.cpp">
+      <Filter>hprose\io\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\decoders\IntDecoder.cpp">
+      <Filter>hprose\io\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\decoders\StringDecoder.cpp">
+      <Filter>hprose\io\decoders</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\ByteReader.cpp">
+      <Filter>hprose\io</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\RawReader.cpp">
+      <Filter>hprose\io</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\io\Reader.cpp">
+      <Filter>hprose\io</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\rpc\asio\HttpClient.cpp">
+      <Filter>hprose\rpc\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\rpc\Client.cpp">
+      <Filter>hprose\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\util\Util.cpp">
+      <Filter>hprose\util</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\Uri.cpp">
+      <Filter>hprose</Filter>
+    </ClCompile>
+    <ClCompile Include="hprose\Variant.cpp">
+      <Filter>hprose</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="hprose\http\Client2.cpp">
+      <Filter>hprose\http</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hprose\http\asio\Transport.h">
+      <Filter>hprose\http\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Cookie.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Header.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Method.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Request.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Response.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Status.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Transport.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\BoolDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ComplexDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ComplexDecoder-inl.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\FloatDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\FloatDecoder-inl.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\IntDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ListDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ListDecoder-inl.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\MapDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\MapDecoder-inl.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ObjectDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\ObjectDecoder-inl.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\decoders\StringDecoder.h">
+      <Filter>hprose\io\decoders</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\ByteReader.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\ClassManager.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Formatter.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\RawReader.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Reader.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Reader-inl.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Tags.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Writer.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\Writer-inl.h">
+      <Filter>hprose\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\rpc\asio\HttpClient.h">
+      <Filter>hprose\rpc\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\rpc\Client.h">
+      <Filter>hprose\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\rpc\Context.h">
+      <Filter>hprose\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\rpc\Filter.h">
+      <Filter>hprose\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\util\Config.h">
+      <Filter>hprose\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\util\PreProcessor.h">
+      <Filter>hprose\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\util\Util.h">
+      <Filter>hprose\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\Any.h">
+      <Filter>hprose</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\Ref.h">
+      <Filter>hprose</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\Uri.h">
+      <Filter>hprose</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\Variant.h">
+      <Filter>hprose</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\Variant-inl.h">
+      <Filter>hprose</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\http\Client2.h">
+      <Filter>hprose\http</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
